@@ -10,6 +10,7 @@ class Person extends React.Component {
                 url: "https://google.com",
                 success: function(content) {
                     console.log($(content))
+                    console.log(1)
                 },
                 error: function(error) {
                     console.log(error)
